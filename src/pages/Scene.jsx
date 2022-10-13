@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import * as THREE from 'three'
 
 const SceneJsx = () => {
-
   const init = () => {
     const container = document.querySelector(".container");
 
