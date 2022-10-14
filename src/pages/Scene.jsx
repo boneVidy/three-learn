@@ -4,8 +4,6 @@ import * as THREE from 'three'
 
 const SceneJsx = () => {
   const init = () => {
-    const container = document.querySelector(".container");
-
     const scene = new THREE.Scene()
     // 立方体
     const geometry = new THREE.BoxGeometry(100, 100, 100)
@@ -34,7 +32,10 @@ const SceneJsx = () => {
 
     const renderer = new THREE.WebGLRenderer()
     renderer.setSize(width, height)
+
+    const container = document.querySelector(".container");
     container.appendChild(renderer.domElement)
+
 
     renderer.render(scene, camera);
   }
