@@ -4,6 +4,7 @@ import SceneJsx from "../pages/Scene";
 import CameraJsx1 from "../pages/camera/CameraJsx1.jsx";
 import CameraJsx2 from "../pages/camera/CameraJsx2.jsx";
 import CameraJsx3 from "../pages/camera/CameraJsx3.jsx";
+import Object3D from "../pages/Object3D.jsx";
 
 export const router = [
   {
@@ -30,6 +31,11 @@ export const router = [
     path: '02_camera3',
     element: <CameraJsx3 />,
     title: '物体运动'
+  },
+  {
+    path: '04_Object3D',
+    element: <Object3D />,
+    title: 'Object3D'
   },
 ]
 
