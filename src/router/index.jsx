@@ -5,6 +5,8 @@ import CameraJsx1 from "../pages/camera/CameraJsx1.jsx";
 import CameraJsx2 from "../pages/camera/CameraJsx2.jsx";
 import CameraJsx3 from "../pages/camera/CameraJsx3.jsx";
 import Object3D from "../pages/Object3D.jsx";
+import Points from "../pages/Points.jsx";
+import Line from "../pages/Line.jsx";
 
 export const router = [
   {
@@ -36,6 +38,16 @@ export const router = [
     path: '04_Object3D',
     element: <Object3D />,
     title: 'Object3D'
+  },
+  {
+    path: '05_Points',
+    element: <Points />,
+    title: '点'
+  },
+  {
+    path: '06_Line',
+    element: <Line />,
+    title: '线'
   },
 ]
 
