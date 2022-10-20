@@ -7,8 +7,6 @@ import FR from './assets/天空盒/FR.jpg'
 import LF from './assets/天空盒/LF.jpg'
 import RT from './assets/天空盒/RT.jpg'
 import UP from './assets/天空盒/UP.jpg'
-import { useEffect } from "react";
-import { initSceneCameraRenderer } from "../../utils/tools.js";
 
 import 太阳 from './assets/太阳.jpeg'
 import 水星 from './assets/水星.png'
