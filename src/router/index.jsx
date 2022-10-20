@@ -9,6 +9,7 @@ import Points from "../pages/Points.jsx";
 import Line from "../pages/Line.jsx";
 import Plane from "../pages/Plane.jsx";
 import Geometry from "../pages/Geometry.jsx";
+import SolarSystem from "../pages/solar-system/SolarSystem.jsx";
 
 export const router = [
   {
@@ -60,6 +61,11 @@ export const router = [
     path: '08_Geometry',
     element: <Geometry />,
     title: '体'
+  },
+  {
+    path: 'solar-system',
+    element: <SolarSystem />,
+    title: '太阳系'
   },
 ]
 
